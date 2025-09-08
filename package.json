@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "rollup": "^4.50.1",
     "survey-react-ui": "^2.3.5"
   },
   "devDependencies": {
