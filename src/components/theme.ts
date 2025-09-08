@@ -3,7 +3,7 @@ export const themeJson = {
     "colorPalette": "light",
     "isPanelless": true,
     "backgroundImage": "",
-    "backgroundImageFit": "cover",
+    "backgroundImageFit": "cover" as any,
     "backgroundImageAttachment": "scroll",
     "backgroundOpacity": 1,
     "cssVariables": {
