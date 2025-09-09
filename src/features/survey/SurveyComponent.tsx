@@ -28,7 +28,6 @@ function SurveyComponent() {
         }
 
          await postResults(sender, options, json.surveyPostId);
-        console.log('Result:', result);
       } catch (error) {
         console.error('Error handling survey completion:', error);
         options.showSaveError('Error saving survey results');
