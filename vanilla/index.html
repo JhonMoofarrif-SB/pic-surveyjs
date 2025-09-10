@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Application</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <!-- SurveyJS Styles -->
+    <link
+      href="https://unpkg.com/survey-core/survey-core.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+
+    <!-- SurveyJS Scripts -->
+    <script type="text/javascript" src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"
+    ></script>
+    
+    <style>
+      body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+        padding: 20px;
+        /* background-color: rgba(246, 246, 246, 1); */
+        min-height: 100vh;
+      }
+      
+      #surveyContainer {
+        max-width: 800px;
+        margin: 0 auto;
+        /* background-color: white; */
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      
+      /* Ensure proper font loading */
+      * {
+        font-family: 'Open Sans', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="surveyContainer"></div>
+    
+    <!-- Load our survey script -->
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
