@@ -3,7 +3,7 @@ import { Model } from 'survey-core';
 import { Survey } from 'survey-react-ui';
 import 'survey-core/survey-core.min.css';
 
-// import { themeJson } from './theme';
+import { themeJson } from './theme';
 import { json } from './json';
 
 import { useSurveyService } from '../../shared/hooks';
@@ -43,7 +43,7 @@ function SurveyComponent() {
         setError(null);
 
         const surveyModel = new Model();
-        // surveyModel.applyTheme(themeJson as any);
+        surveyModel.applyTheme(themeJson as any);
 
         // Load survey configuration
         await loadSurvey(surveyModel, json.surveyId);
